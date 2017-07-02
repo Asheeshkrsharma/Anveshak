@@ -10,8 +10,9 @@ Steering Motor (Direction): 3
 Engine Motor (Direction): 2
 
 ## Run
-Step 1: ```cd Anveshak/```
-Step 2: ```python main.py```
-Step 3: When the Parameter Shows up, Type the Arduino device address & Pin configurations and hit ```configure```.
+
+1. ```cd Anveshak/```
+2. ```python main.py```
+3. When the Parameter Shows up, Type the Arduino device address & Pin configurations and hit ```configure```.
 
 When the configure button is pressed, it opens a terminal window automatically, wakes up ROSCORE process and ROSPY child process.
