@@ -35,6 +35,8 @@ using the graphic user interface from computer.
 Path planning: It uses A* search algorithm to plan routes using the map obtained.
 
 # Chassis
+![alt text](https://github.com/Asheeshkrsharma/Anveshak/blob/master/images/2.png "Logo Title Text 1")
+
 A chassis consists of an internal framework that supports a man-made object in its
 construction and use. It is analogous to an animal's skeleton. An example of a chassis is the
 under part of a motor vehicle, consisting of the frame (on which the body is mounted) with the
