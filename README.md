@@ -1,8 +1,14 @@
 # Anveshak
+The purpose of Anveshak is to decrease the complexity of exploration in space. The rover is
+designed to mimic the features of SPIRIT rover. A major difference between the two rovers
+is that anveshak tends to perform task on it own. Unlike SPIRIT, Anveshak can be
+programmed to perform tasks on daily basis. It can differentiate between an interesting rock
+and others.
+
 Source code for Anveshak space exploration rover
 Connections: Pins of Arduino are connected according to:
 
-| Pin Configuration Table       |    |
+| Pin Configuration Table       |    |
 |-------------------------------|----|
 | Right Head lamp               | 9  |
 | Left Head lamp                | 10 |
