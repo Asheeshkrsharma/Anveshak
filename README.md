@@ -1,9 +1,10 @@
 # Anveshak
 The purpose of Anveshak is to decrease the complexity of exploration in space. The rover is
 designed to mimic the features of SPIRIT rover. A major difference between the two rovers
-is that anveshak tends to perform task on it own. Unlike SPIRIT, Anveshak can be
+is that anveshak tends to perform task on its own. Unlike SPIRIT, Anveshak can be
 programmed to perform tasks on daily basis. It can differentiate between an interesting rock
-and others.  Figure 4.1 shows a schematic of its software architecture:
+and others.  Following figure shows a schematic of its software architecture:
+![alt text](https://github.com/Asheeshkrsharma/Anveshak/blob/master/images/figure.png "Logo Title Text 1")
 
 ## Layer 1: Sensor Interface
 A laser-based sensor is used to calculate wheel velocity. Arduino with ATMega328, which
@@ -70,6 +71,7 @@ code results the parameter setup window of the software. Parameter setup window 
 ability to tweak pinouts of Arduino on the fly. This ability requires parallel programming.
 Following figure shows the Parameter setup window.
 
+![alt text](https://github.com/Asheeshkrsharma/Anveshak/blob/master/images/Screenshot%20from%202012-10-28%2020_22_23.png "Logo Title Text 1")
 
 ### Steps to run the code.
  1. Connections: Pins of Arduino are connected according to following table.
@@ -95,6 +97,9 @@ button.
 When the configure button is pressed, it opens a terminal window automatically, wakes up
 ROSCORE process and ROSPY child process. ROSCORE process is shown in figure 8.3.
 Rospy child process is show in figure 8.4.
+![alt text](https://github.com/Asheeshkrsharma/Anveshak/blob/master/images/Screenshot%20from%202012-10-28%2020_25_01.png "Logo Title Text 1")
+![alt text](https://github.com/Asheeshkrsharma/Anveshak/blob/master/images/Screenshot%20from%202012-10-28%2020_25_19.png "Logo Title Text 1")
+
 
 5. Go back to Parameter setup window, and type pin numbers as per table 1. This will
 start Headlights, motors and fan one by one.
