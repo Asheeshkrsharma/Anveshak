@@ -1,4 +1,6 @@
 # Anveshak
+![alt text](https://github.com/Asheeshkrsharma/Anveshak/blob/master/images/comb.jpg "Logo Title Text 1")
+
 The purpose of Anveshak is to decrease the complexity of exploration in space. The rover is
 designed to mimic the features of SPIRIT rover. A major difference between the two rovers
 is that anveshak tends to perform task on its own. Unlike SPIRIT, Anveshak can be
