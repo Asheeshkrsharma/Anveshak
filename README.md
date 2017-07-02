@@ -61,12 +61,20 @@ at 27 inches on center through the middle of the chassis, one of the widest spac
 industry. And we still are one of the few in the industry that have left room for an under car
 exhaust outside the rails.
 
-
-
 # Source code for Anveshak space exploration rover
-Connections: Pins of Arduino are connected according to:
+The software follows the 4-layer architecture as discussed above.
 
-| Pin Configuration Table       |    |
+## Parameter setup window
+Interface is written on Linux native GUI design tool Glade interface designer. Following
+code results the parameter setup window of the software. Parameter setup window renders
+ability to tweak pinouts of Arduino on the fly. This ability requires parallel programming.
+Following figure shows the Parameter setup window.
+
+
+### Steps to run the code.
+ 1. Connections: Pins of Arduino are connected according to following table.
+
+| Pin Configuration Table       | pin|
 |-------------------------------|----|
 | Right Head lamp               | 9  |
 | Left Head lamp                | 10 |
@@ -76,10 +84,17 @@ Connections: Pins of Arduino are connected according to:
 | Steering Motor (Direction)    | 3  |
 | Engine Motor (Direction)      | 2  |
 
-## Run
+2. Connect the Arduino cable to Computer.
 
-1. ```cd Anveshak/```
-2. ```python main.py```
-3. When the Parameter Shows up, Type the Arduino device address & Pin configurations and hit ```configure```.
+3. In a terminal
+   ```cd Anveshak/```
+   ```python main.py```
+4. When the Parameter Shows up, Type the Arduino device address and hit configure
+button.
 
-When the configure button is pressed, it opens a terminal window automatically, wakes up ROSCORE process and ROSPY child process.
+When the configure button is pressed, it opens a terminal window automatically, wakes up
+ROSCORE process and ROSPY child process. ROSCORE process is shown in figure 8.3.
+Rospy child process is show in figure 8.4.
+
+5. Go back to Parameter setup window, and type pin numbers as per table 1. This will
+start Headlights, motors and fan one by one.
