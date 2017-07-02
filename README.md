@@ -1,13 +1,16 @@
 # Anveshak
 Source code for Anveshak space exploration rover
 Connections: Pins of Arduino are connected according to:
-Right Head lamp: 9
-Left Head lamp: 10
-Fan: 8
-Steering Motor (relay enable):12
-Engine Motor (relay enable): 11
-Steering Motor (Direction): 3
-Engine Motor (Direction): 2
+
+| Pin Configuration Table       |    |
+|-------------------------------|----|
+| Right Head lamp               | 9  |
+| Left Head lamp                | 10 |
+| Fan                           | 8  |
+| Steering Motor (relay enable) | 12 |
+| Engine Motor (relay enable)   | 11 |
+| Steering Motor (Direction)    | 3  |
+| Engine Motor (Direction)      | 2  |
 
 ## Run
 
